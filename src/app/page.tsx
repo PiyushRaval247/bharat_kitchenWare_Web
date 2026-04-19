@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSlider from "@/components/HeroSlider";
-import { ArrowForward, CheckCircle } from "@/components/Icons"; // Placeholder for icon component or material icons
+
 
 export default function Home() {
   return (
