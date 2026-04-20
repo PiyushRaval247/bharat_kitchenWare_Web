@@ -15,8 +15,32 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Bharat Kitchenware | Curating Culinary Excellence",
-  description: "Quality utensils, cookware, and kitchen essentials in Deesa. Curating culinary excellence since 1999.",
+  title: "Bharat Kitchenware Mall | Best Kitchenware & Mall in Deesa",
+  description: "Bharat Kitchenware Mall in Deesa is your one-stop destination for premium utensils, cookware, and kitchen appliances. Visit the best mall in Deesa for quality kitchen essentials by Om Bhai.",
+  keywords: [
+    "Bharat Kitchenware",
+    "Bharat Mall",
+    "Mall in Deesa",
+    "Kitchenware in Deesa",
+    "Nearby Malls in Deesa",
+    "Om Bhai Bharat Kitchenware",
+    "Best Kitchenware Store Deesa",
+    "Quality Utensils Deesa",
+    "Cookware Mall Deesa",
+    "Bharat Kitchenware Mall"
+  ],
+  openGraph: {
+    title: "Bharat Kitchenware Mall | Best Kitchenware & Mall in Deesa",
+    description: "Premium utensils, cookware, and kitchen appliances at Bharat Kitchenware Mall in Deesa. Curating culinary excellence with Om Bhai.",
+    url: "https://bharatkitchenware.com",
+    siteName: "Bharat Kitchenware Mall",
+    locale: "en_IN",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export default function RootLayout({

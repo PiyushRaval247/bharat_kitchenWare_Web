@@ -1,6 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Users, Target, Award, Star, ShieldCheck, HeartHandshake } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Bharat Kitchenware Mall | The Story of Om Bhai",
+  description: "Discover the heritage of Bharat Kitchenware Mall in Deesa. Learn about Om Bhai's vision for the best kitchenware destination and mall in Deesa.",
+  keywords: ["About Bharat Mall", "Om Bhai Story", "Best Mall in Deesa History", "Kitchenware Mall Deesa"],
+};
 
 export default function AboutPage() {
   return (
@@ -22,10 +29,10 @@ export default function AboutPage() {
           <div className="relative z-10 max-w-7xl mx-auto w-full">
             <span className="text-primary font-headline uppercase tracking-[0.3em] text-[10px] font-extrabold mb-4 block">Our Story</span>
             <h1 className="text-5xl md:text-7xl font-headline font-extrabold text-on-surface max-w-2xl leading-[1.1] mb-8">
-              Legacy of <span className="text-primary">Culinary Excellence</span> in Deesa.
+              Bharat Mall: Legacy of <span className="text-primary">Culinary Excellence</span> by Om Bhai.
             </h1>
             <p className="text-lg text-on-surface-variant max-w-xl leading-relaxed font-medium">
-              Since 1999, Bharat Kitchenware has been more than just a store. We are a part of your family&apos;s heritage, bringing quality and innovation to every kitchen in our community.
+              Bharat Kitchenware Mall has always been more than just a store. Under the vision of Om Bhai, we have become a part of your family&apos;s heritage, bringing quality and innovation to every kitchen in Deesa.
             </p>
           </div>
         </section>
@@ -67,8 +74,8 @@ export default function AboutPage() {
         <section className="py-16 bg-surface-container-highest">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             <div>
-              <p className="text-4xl font-headline font-extrabold text-primary mb-1">25+</p>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-outline">Years Legacy</p>
+              <p className="text-4xl font-headline font-extrabold text-primary mb-1">Top</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-outline">Quality Legacy</p>
             </div>
             <div>
               <p className="text-4xl font-headline font-extrabold text-primary mb-1">50k+</p>

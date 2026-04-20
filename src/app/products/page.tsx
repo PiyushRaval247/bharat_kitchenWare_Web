@@ -1,6 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Search, Filter, ShoppingBag, ArrowUpRight } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kitchenware Products | Bharat Kitchenware Mall Deesa",
+  description: "Browse the finest collection of kitchenware, copper utensils, and home appliances at Bharat Mall in Deesa. Curated by Om Bhai.",
+  keywords: ["Kitchenware Products Deesa", "Bharat Mall Products", "Copper Utensils Deesa", "Home Appliances Deesa"],
+};
 
 const products = [
   { id: 1, title: "Artisan Copper Handi", price: "₹2,850", cat: "Copper", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCyU3jJ93RDK6wcNXJ4-M5ljzWwIL34hQ-eNt27ZIjErJ_G3npC2GrReJhCeIcPNYC0mipSad49I2AlyuMWk8RS5WuyFKH7pNnJhlPyXaXjbpFkag4CloUVOGUaguQq33j5d662KVV4fLI4PcS8eL7XiBQUpvUtEHXZ5Ngnn9gMnT327MMLvDGl71RgjtGQn8BTJ5QSaKBeu1EJrOkf4uyNGiO_y-c5ecM7fvgpDqPj_pnxPsDu7tOCC210ilZX6bcikZmiVJHixkSW" },

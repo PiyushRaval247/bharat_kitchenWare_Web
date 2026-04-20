@@ -16,8 +16,8 @@ export default function Home() {
         <section className="py-16 md:py-24 px-6 max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-12 gap-4">
             <div>
-              <h2 className="text-2xl md:text-4xl font-headline font-bold mb-3 md:mb-4">Featured Collections</h2>
-              <p className="text-on-surface-variant text-sm md:text-base">Elevate your culinary craft with our signature ranges.</p>
+              <h1 className="text-3xl md:text-5xl font-headline font-bold mb-3 md:mb-4">Bharat Kitchenware Mall Collections</h1>
+              <p className="text-on-surface-variant text-sm md:text-base">Experience the finest kitchenware in Deesa at our flagship mall.</p>
             </div>
             <button className="text-primary font-bold flex items-center gap-2 group text-sm">
               View All Categories 
@@ -77,7 +77,7 @@ export default function Home() {
               <h2 className="text-xs font-bold text-tertiary uppercase tracking-widest mb-3 md:mb-4">Our Heritage</h2>
               <h2 className="text-3xl md:text-5xl font-headline font-bold mb-6 md:mb-8 leading-tight">Blending Tradition with Modern Utility</h2>
               <p className="text-base md:text-lg text-on-surface-variant mb-6 md:mb-8 leading-relaxed">
-                Bharat Kitchenware has been the heart of Deesa for over 25 years. We believe every meal starts with the right foundation. Our selection is carefully curated to bring you the finest materials.
+                Bharat Kitchenware is the heart of Deesa. We believe every meal starts with the right foundation. Our selection is carefully curated to bring you the finest materials.
               </p>
               <ul className="space-y-3 md:space-y-4 mb-8 md:mb-10">
                 <li className="flex items-center gap-3 font-semibold text-sm md:text-base">
@@ -99,7 +99,8 @@ export default function Home() {
         {/* Trust Section */}
         <section className="py-16 md:py-24 px-6 max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-2xl md:text-4xl font-headline font-bold mb-4">A Legacy of Trust</h2>
+            <h2 className="text-2xl md:text-4xl font-headline font-bold mb-4">Bharat Mall: A Legacy of Trust</h2>
+            <p className="text-on-surface-variant max-w-2xl mx-auto mb-6">The most trusted destination for kitchenware and nearby malls in Deesa.</p>
             <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
@@ -107,9 +108,9 @@ export default function Home() {
               <div className="w-12 h-12 md:w-16 md:h-16 bg-primary-fixed rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto mb-4 md:mb-6 rotate-3 group-hover:rotate-0 transition-transform">
                 <span className="material-symbols-outlined text-on-primary-fixed text-2xl md:text-3xl">history</span>
               </div>
-              <h3 className="text-4xl md:text-5xl font-headline font-extrabold text-primary mb-1 md:mb-2">25+</h3>
-              <p className="font-bold text-base md:text-lg mb-2 md:mb-4">Years of Service</p>
-              <p className="text-on-surface-variant text-xs md:text-sm leading-relaxed">Providing high-quality kitchen essentials in Deesa since 1999.</p>
+              <h3 className="text-4xl md:text-5xl font-headline font-extrabold text-primary mb-1 md:mb-2">Premium</h3>
+              <p className="font-bold text-base md:text-lg mb-2 md:mb-4">Kitchen Solutions</p>
+              <p className="text-on-surface-variant text-xs md:text-sm leading-relaxed">Providing high-quality kitchen essentials in Deesa.</p>
             </div>
             <div className="bg-surface-container-lowest p-8 md:p-10 rounded-3xl md:rounded-[2.5rem] shadow-sm hover:shadow-xl transition-shadow text-center md:scale-105 border border-primary/10">
               <div className="w-12 h-12 md:w-16 md:h-16 bg-secondary-fixed rounded-2xl md:rounded-3xl flex items-center justify-center mx-auto mb-4 md:mb-6 -rotate-3">

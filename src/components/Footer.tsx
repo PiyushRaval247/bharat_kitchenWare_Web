@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-on-surface-variant leading-relaxed mb-6 max-w-sm mx-auto md:mx-0 font-medium">
-              Curating culinary excellence in Deesa for over 25 years. Your trusted destination for artisanal kitchenware and modern appliances.
+              Curating culinary excellence in Deesa. Your trusted destination for artisanal kitchenware and modern appliances.
             </p>
             <div className="flex items-center gap-2 text-[10px] font-extrabold text-primary bg-primary/5 px-4 py-2 rounded-xl w-fit mx-auto md:mx-0 border border-primary/10 tracking-widest uppercase">
               <Tag size={12} />
@@ -59,8 +59,8 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-medium text-on-surface-variant">
               <li className="flex flex-col md:flex-row items-center md:items-start gap-3">
                 <MessageCircle size={18} className="text-primary shrink-0" />
-                <a href="https://wa.me/919106198615" target="_blank" rel="noopener noreferrer" className="hover:text-primary font-bold tracking-tight">
-                  +91 91061 98615
+                <a href="https://wa.me/919978899006" target="_blank" rel="noopener noreferrer" className="hover:text-primary font-bold tracking-tight">
+                  +91 99788 99006
                 </a>
               </li>
               <li className="flex flex-col md:flex-row items-center md:items-start gap-3">

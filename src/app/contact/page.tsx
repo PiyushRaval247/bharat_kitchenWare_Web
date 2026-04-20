@@ -1,6 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Mail, Phone, MapPin, Clock, Send, Store, ArrowRight, PhoneIncoming } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Bharat Kitchenware Mall | Best Mall in Deesa",
+  description: "Get in touch with Bharat Kitchenware Mall in Deesa. Visit us for the best kitchenware or contact Om Bhai for bulk orders and inquiries.",
+  keywords: ["Contact Bharat Mall", "Kitchenware Deesa Contact", "Om Bhai Deesa", "Mall in Deesa Address"],
+};
 
 export default function ContactPage() {
   return (
@@ -49,16 +56,16 @@ export default function ContactPage() {
               <h3 className="font-headline text-xl font-bold mb-4">Instant Support</h3>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center justify-between">
-                  <span className="font-bold text-lg">+91 91061 98615</span>
+                  <span className="font-bold text-lg">+91 99788 99006</span>
                   <span className="bg-white/20 px-2 py-0.5 rounded text-[8px] font-extrabold uppercase tracking-widest">Main</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="font-bold text-lg">91061 98615</span>
+                  <span className="font-bold text-lg">99788 99006</span>
                   <span className="bg-white/20 px-2 py-0.5 rounded text-[8px] font-extrabold uppercase tracking-widest">WhatsApp</span>
                 </div>
               </div>
               <a 
-                href="https://wa.me/919106198615"
+                href="https://wa.me/919978899006"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-white text-primary py-4 rounded-2xl font-headline font-extrabold text-sm hover:bg-surface-container transition-all flex items-center justify-center gap-2"

@@ -48,7 +48,7 @@ export default function Navbar() {
         {/* Desktop Action */}
         <div className="hidden md:block">
           <a 
-            href="https://wa.me/919106198615" 
+            href="https://wa.me/919978899006" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-on-primary px-7 py-3 rounded-full text-[10px] font-headline font-extrabold tracking-[0.15em] hover:bg-primary/90 transition-all transform hover:scale-105 shadow-xl shadow-primary/20 flex items-center gap-2"
@@ -76,7 +76,7 @@ export default function Navbar() {
           <Link onClick={() => setIsMenuOpen(false)} href="/contact" className="text-xl font-headline font-bold text-on-surface hover:text-primary">CONTACT</Link>
           
           <a 
-            href="https://wa.me/919106198615" 
+            href="https://wa.me/919978899006" 
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMenuOpen(false)}
